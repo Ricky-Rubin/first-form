@@ -1,0 +1,35 @@
+body {
+    width: 99%;
+    height: 96vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 880px;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.image {
+    position: absolute;
+    width: 325px;
+    height: 100%;
+}
+
+.leaf {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    position: absolute;
+    left: 325px;
+    width: 555px;
+    height: 100%;
+    border: 1px solid red;
+}
